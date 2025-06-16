@@ -2,18 +2,18 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#a6bfa5]/10 via-white to-[#a6bfa5]/5 py-20 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-      <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full blur-3xl opacity-30"></div>
-      <div className="absolute bottom-20 left-20 w-48 h-48 bg-gradient-to-br from-purple-200 to-blue-200 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute top-20 right-20 w-64 h-64 bg-[#a6bfa5]/20 rounded-full blur-3xl opacity-30"></div>
+      <div className="absolute bottom-20 left-20 w-48 h-48 bg-[#a6bfa5]/20 rounded-full blur-3xl opacity-30"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="animate-fade-in">
             <div className="mb-6">
-              <span className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+              <span className="inline-flex items-center px-4 py-2 bg-[#a6bfa5]/10 text-[#a6bfa5] rounded-full text-sm font-medium">
                 <Icon name="Zap" size={16} className="mr-2" />
                 Лидер в области СЭД решений
               </span>
@@ -29,10 +29,10 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg hover:shadow-xl transition-all duration-300 font-semibold text-lg hover-scale">
+              <button className="bg-[#a6bfa5] text-white px-8 py-4 rounded-lg hover:shadow-xl transition-all duration-300 font-semibold text-lg hover-scale">
                 Получить презентацию
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-blue-500 hover:text-blue-500 transition-all duration-300 font-semibold">
+              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-[#a6bfa5] hover:text-[#a6bfa5] transition-all duration-300 font-semibold">
                 Демо-версия
               </button>
             </div>
@@ -40,19 +40,19 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">
+                <div className="text-3xl font-bold text-[#a6bfa5] mb-2">
                   500+
                 </div>
                 <div className="text-sm text-gray-600">Довольных клиентов</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">
+                <div className="text-3xl font-bold text-[#a6bfa5] mb-2">
                   15+
                 </div>
                 <div className="text-sm text-gray-600">Лет на рынке</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">
+                <div className="text-3xl font-bold text-[#a6bfa5] mb-2">
                   99.9%
                 </div>
                 <div className="text-sm text-gray-600">Uptime</div>
@@ -65,7 +65,7 @@ const Hero = () => {
             <div className="relative z-10">
               <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-[#a6bfa5] rounded-lg flex items-center justify-center mr-4">
                     <Icon name="FileCheck" className="text-white" size={24} />
                   </div>
                   <div>
@@ -108,7 +108,7 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center animate-pulse">
               <Icon name="Zap" className="text-white" size={24} />
             </div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-green-400 to-[#a6bfa5] rounded-full flex items-center justify-center">
               <Icon name="Shield" className="text-white" size={20} />
             </div>
           </div>

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#a6bfa5] rounded-lg flex items-center justify-center">
                 <Icon name="FileText" className="text-white" size={20} />
               </div>
               <span className="text-2xl font-bold">БИНУС</span>
@@ -20,19 +20,19 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#a6bfa5] transition-colors"
               >
                 <Icon name="Mail" size={20} />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#a6bfa5] transition-colors"
               >
                 <Icon name="Phone" size={20} />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#a6bfa5] transition-colors"
               >
                 <Icon name="MessageCircle" size={20} />
               </a>

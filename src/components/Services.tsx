@@ -50,10 +50,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Наши{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              СЭД решения
-            </span>
+            Наши <span className="text-[#a6bfa5]">СЭД решения</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Комплексные решения для цифровой трансформации вашего бизнеса
@@ -64,9 +61,9 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:border-blue-200 transition-all duration-300 hover-scale"
+              className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:border-[#a6bfa5]/30 transition-all duration-300 hover-scale"
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 bg-[#a6bfa5] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Icon
                   name={service.icon as any}
                   className="text-white"
@@ -99,7 +96,7 @@ const Services = () => {
               </div>
 
               <div className="mt-6 pt-6 border-t border-gray-100">
-                <button className="text-blue-600 font-medium hover:text-purple-600 transition-colors story-link">
+                <button className="text-[#a6bfa5] font-medium hover:text-[#a6bfa5]/80 transition-colors story-link">
                   Подробнее →
                 </button>
               </div>

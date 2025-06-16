@@ -33,14 +33,11 @@ const Advantages = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-[#a6bfa5]/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Почему выбирают{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              нас
-            </span>
+            Почему выбирают <span className="text-[#a6bfa5]">нас</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             15+ лет опыта в создании надежных решений для российского рынка
@@ -54,15 +51,15 @@ const Advantages = () => {
               className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               {/* Number Badge */}
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#a6bfa5] rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg">
                 {advantage.number}
               </div>
 
               <div className="flex items-start space-x-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-[#a6bfa5]/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Icon
                     name={advantage.icon as any}
-                    className="text-blue-600"
+                    className="text-[#a6bfa5]"
                     size={28}
                   />
                 </div>
@@ -91,10 +88,10 @@ const Advantages = () => {
               может оптимизировать ваши бизнес-процессы
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold">
+              <button className="bg-[#a6bfa5] text-white px-8 py-3 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold">
                 Бесплатная консультация
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:border-blue-500 hover:text-blue-500 transition-all duration-300 font-semibold">
+              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:border-[#a6bfa5] hover:text-[#a6bfa5] transition-all duration-300 font-semibold">
                 Демо-презентация
               </button>
             </div>
