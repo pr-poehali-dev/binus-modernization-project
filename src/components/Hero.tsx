@@ -20,16 +20,12 @@ const Hero = () => {
             </div>
 
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Цифровая трансформация
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent block">
-                вашего бизнеса
-              </span>
+              СЭД "БИНУС": Эффективный документооборот
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Современные решения электронного документооборота для повышения
-              эффективности, автоматизации процессов и соответствия требованиям
-              законодательства.
+              Оптимизация документооборота — быстро, выгодно, надежно для вашего
+              бизнеса.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
